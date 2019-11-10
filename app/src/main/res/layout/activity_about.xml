@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/aboutme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text="About"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round1"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:id="@+id/about_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/about" />
+
+        <TextView
+            android:id="@+id/aboutMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="About ME and the App" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/aboutlegal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Help and Policies"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round1"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:id="@+id/about_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/privacy" />
+
+        <TextView
+            android:id="@+id/aboutPrivacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="Privacy Policy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round1"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/about_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/terms" />
+
+        <TextView
+            android:id="@+id/aboutTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:text="Terms and Conditions"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round1"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/about_updates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/updates" />
+
+        <TextView
+            android:id="@+id/aboutUpdates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:text="Upcoming Updates"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/aboutconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Let's Connect"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round1">
+
+        <ImageView
+            android:id="@+id/about_linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/linkedin" />
+
+        <TextView
+            android:id="@+id/aboutLinkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:text="LinkedIn"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round1"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/about_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/email" />
+
+        <TextView
+            android:id="@+id/aboutEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:text="Email/Feedback"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5159801479844134/5260075124">
+        </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+
+
+
+</LinearLayout>

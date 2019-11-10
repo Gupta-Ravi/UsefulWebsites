@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/updateTextColor"
+        android:fontFamily="serif-monospace"
+        android:text="- Improved UI with added pictures."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textColor="@color/updateTextColor"
+        android:text="- Option to create your Account."
+        android:textSize="20sp" />/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/updateTextColor"
+        android:textStyle="bold"
+        android:text="- Add websites to Favourite List."
+        android:textSize="20sp" />/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/updateTextColor"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:text="- Random website of the Day"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/updateTextColor"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:text="- More websites added."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/updateTextColor"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:text="- And of course, bug fixes."
+        android:textSize="20sp" />
+</LinearLayout>
